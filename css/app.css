@@ -22,11 +22,14 @@ footer li {
 
 .fa-linkedin, .fa-envelope, .fa-github, .fa-file {
     color: black;
-    padding-top: 5%;
     text-decoration: none;
     
 }
-
+.contactgrid
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 body {
     background: url("../img/night.png") no-repeat center center fixed;
     -webkit-background-size: cover;
