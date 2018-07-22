@@ -66,6 +66,11 @@ html {
     background-color: #444;
 }
 
+.subheads {
+    display: inline;
+    padding-left: 2%;
+}
+
 .card-body{
     padding: 4.0rem;
 
