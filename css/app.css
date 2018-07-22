@@ -127,6 +127,7 @@ body.modal-open > :not(.modal) {
 
 .fab:hover, .fas:hover {
    text-decoration: none;
+    color: white;
 }
 
 footer
