@@ -36,7 +36,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -56,13 +55,18 @@ body {
     text-align: center;
     background-color: transparent;
 }
+.img-thumbnail
+{
+    background-color: darkgrey;
+    border: 1px solid darkgrey;
+}
 
 html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
 
-.modaltitle
+.modal-title
 {
     display: inline;
     padding-left: 2%;
@@ -81,6 +85,11 @@ html, body {
 .subheads {
     display: inline;
     padding-left: 2%;
+}
+
+button.btn.btn-link {
+    color: white;
+    text-decoration: none
 }
 
 .card-body{
