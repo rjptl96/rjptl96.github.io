@@ -104,3 +104,7 @@ body.modal-open > :not(.modal) {
    text-decoration: none;
 }
 
+footer
+{
+    color: floralwhite;
+}
