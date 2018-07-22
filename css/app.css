@@ -12,13 +12,19 @@
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
-
+footer
+{
+    padding-top: 2%;
+}
 footer li {
     padding-right: 10px;
 }
 
-footer li a {
-    color: white;
+.fa-linkedin, .fa-envelope, .fa-github {
+    color: black;
+    padding-top: 5%;
+    text-decoration: none;
+    
 }
 
 body {
@@ -87,3 +93,11 @@ body.modal-open > :not(.modal) {
     -ms-filter: blur(5px);
     filter: blur(5px);
 }
+
+
+
+
+.fab:hover, .fas:hover {
+   text-decoration: none;
+}
+
